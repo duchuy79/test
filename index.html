@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+  <title>META AI CORE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>META AI CORE</header>
+
+<section class="core-box">
+  <div class="core-label">AI DECISION</div>
+  <div id="decision" class="core-decision wait">WAIT</div>
+
+  <div class="controls">
+    <button id="btnB" class="btn banker">BANKER</button>
+    <button id="btnP" class="btn player">PLAYER</button>
+    <button id="btnU" class="btn neutral">UNDO</button>
+    <button id="btnR" class="btn danger">RESET</button>
+  </div>
+</section>
+
+<section class="rate-box">
+  <div class="box-title">TABLE & TOOL WIN RATE</div>
+
+  <div class="rate">
+    <span>BANKER</span><span id="rateB">0%</span>
+    <div class="bar"><div id="barB"></div></div>
+  </div>
+
+  <div class="rate">
+    <span>PLAYER</span><span id="rateP">0%</span>
+    <div class="bar"><div id="barP"></div></div>
+  </div>
+
+  <div class="rate tool">
+    <span>TOOL</span><span id="toolRate">0%</span>
+    <div class="bar"><div id="toolBar"></div></div>
+  </div>
+</section>
+
+<script src="main.js"></script>
+</body>
+</html>
